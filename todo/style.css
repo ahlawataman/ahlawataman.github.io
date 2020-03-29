@@ -1,0 +1,62 @@
+body {
+    background-color: lightgrey;
+}
+
+#input {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+#task {
+    padding: 10px;
+    color: darkslategray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 3px;
+    color: darkslategrey;
+    font-weight: 550;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+button#add {
+    background-color: lightseagreen;
+}
+
+button#clear {
+    background-color: #cc1133;
+}
+
+button.remove {
+    padding: 5px;
+    margin-left: 20px;
+    background-color: lightslategrey;
+    opacity: 0.5;
+}
+
+button.remove:hover {
+    background-color: lightseagreen;
+}
+
+ul{
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3em;
+}

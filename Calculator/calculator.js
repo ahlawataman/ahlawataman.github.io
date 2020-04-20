@@ -56,8 +56,9 @@ function handleSymbol(value) {
 function handleMath(value) {
     const intBuffer = parseInt(buffer);
     if(runningTotal === 0){
-        runningTotal = buffer;
+        runningTotal = intBuffer;
     } else {
+        // chain operation
         flushOperation(intBuffer);
     }
     previousOperator = value;
@@ -68,6 +69,7 @@ function flushOperation(intBuffer){
     switch(previousOperator){
         case '+': 
             runningTotal += intBuffer;
+            console.log('here');
             break;
         case '-':
             runningTotal -= intBuffer;

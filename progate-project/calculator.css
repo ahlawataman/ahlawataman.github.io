@@ -226,3 +226,7 @@
   display: flex;
   width: 100%;
 }
+
+.spacing {
+  margin: 20px 0px;
+}
